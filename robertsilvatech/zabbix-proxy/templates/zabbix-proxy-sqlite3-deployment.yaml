@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: {{ .Release.Name }}
-  namespace: {{ .Values.namespace }}
   {{- if .Values.metadata.labels }}
   labels:
     {{- toYaml .Values.metadata.labels | nindent 4 }}
