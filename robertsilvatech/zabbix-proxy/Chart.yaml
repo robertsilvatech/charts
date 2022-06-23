@@ -1,7 +1,7 @@
 apiVersion: v2
 name: zabbix-proxy
 description: A simple helm chart for using Zabbix on Kubernetes or Openshift
-version: 0.0.1
+version: 0.0.2
 appVersion: 6.0.2
 keywords:
   - zabbix

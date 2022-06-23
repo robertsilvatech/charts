@@ -1,3 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: {{ upper .Release.Name }}
+  name: {{ .Release.Name }}-service
+spec:
+  selector:
+    app: {{ upper .Release.Name }}
+  type: ClusterIP  
+  ports:
+  - port: {{ .Values.service.port }}
+    targetPort: {{ .Values.service.targetPort }}
+
+---
+
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
