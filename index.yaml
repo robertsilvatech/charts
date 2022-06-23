@@ -3,7 +3,26 @@ entries:
   zabbix-proxy:
   - apiVersion: v2
     appVersion: 6.0.2
-    created: "2022-06-23T15:52:10.826524173-03:00"
+    created: "2022-06-23T15:55:20.291668294-03:00"
+    description: A simple helm chart for using Zabbix on Kubernetes or Openshift
+    digest: 509d0a7016613987499244bd09253954b06976dd587b2b547db5ecf67e3ae8bd
+    keywords:
+    - zabbix
+    - zabbix proxy
+    - monitoring
+    - jlcp
+    maintainers:
+    - email: robert.silva@jlcp.com.br
+      name: Robert Silva
+    name: zabbix-proxy
+    sources:
+    - https://github.com/robertsilvatech/helm-zabbix-proxy/
+    urls:
+    - https://robertsilvatech.github.io/charts/zabbix-proxy-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 6.0.2
+    created: "2022-06-23T15:55:20.291325395-03:00"
     description: A simple helm chart for using Zabbix on Kubernetes or Openshift
     digest: cda82be4adb383c90f6001c4495d524b84717729bbf5199df1bede555b9a64ab
     keywords:
@@ -20,4 +39,4 @@ entries:
     urls:
     - https://robertsilvatech.github.io/charts/zabbix-proxy-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-23T15:52:10.826086682-03:00"
+generated: "2022-06-23T15:55:20.290549539-03:00"
