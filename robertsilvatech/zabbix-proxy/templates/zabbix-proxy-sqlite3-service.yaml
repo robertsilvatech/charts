@@ -4,7 +4,6 @@ metadata:
   labels:
     app: {{ upper .Release.Name }}
   name: {{ .Release.Name }}-service
-  namespace: {{ .Values.namespace }}
 spec:
   selector:
     app: {{ upper .Release.Name }}

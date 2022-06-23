@@ -3,7 +3,7 @@ entries:
   zabbix-proxy:
   - apiVersion: v2
     appVersion: 6.0.2
-    created: "2022-06-23T10:33:08.62768156-03:00"
+    created: "2022-06-23T11:33:53.292256132-03:00"
     description: A simple helm chart for using Zabbix on Kubernetes or Openshift
     digest: fe210c7ee9b32650511d6aced6764531cd3fb2369fa444bf982c7601614763ad
     keywords:
@@ -20,4 +20,4 @@ entries:
     urls:
     - https://robertsilvatech.github.io/charts/zabbix-proxy-0.0.1.tgz
     version: 0.0.1
-generated: "2022-06-23T10:33:08.627188766-03:00"
+generated: "2022-06-23T11:33:53.291537945-03:00"
